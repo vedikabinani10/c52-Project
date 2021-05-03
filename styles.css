@@ -1,0 +1,52 @@
+body{
+    margin: -20px;
+    background-color: #f5f5f5;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+.origami:hover img {
+    transform: scale(1.1);
+}
+.bodyimg {
+    position: relative;
+}
+.bodyimg p {
+    position: absolute;
+    top: 7%;
+    left: 60%;
+    transform: translate(-80%,-80%);
+    font-size: 35px;
+    font-style: oblique;
+    text-decoration: underline;
+    color: lightblue;
+}
+.bodyimg h3 {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+    color: lightblue;
+}
